@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EfCoreDialogsState">
+    <option name="keyValueStorage">
+      <map>
+        <entry key="Common:16218b22-e2ff-494e-b15b-187e3b1bb001:dbContext" value="EasyTicket.DataAccess.DataContext.AppDataContext" />
+        <entry key="Common:5261627a-1559-4b01-9104-4db62514dff5:dbContext" value="JustChat.DataAccess.DataContext.AppDataContext" />
+        <entry key="Common:5683f29b-d1c7-432d-a3b4-594570a52c58:dbContext" value="UniBlog.DataAccess.DataContext.AppDataContext" />
+        <entry key="Common:buildConfiguration" value="Debug" />
+        <entry key="Common:noBuild" value="false" />
+        <entry key="Common:outputFolder" value="Migrations" />
+        <entry key="Common:useDefaultConnection" value="true" />
+      </map>
+    </option>
+  </component>
+</project>

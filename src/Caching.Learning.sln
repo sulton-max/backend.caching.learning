@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "by Remigiusz Zalewski", "by Remigiusz Zalewski", "{C44EDD5A-2139-47EF-935D-12201084B3D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyTicket", "EasyTicket\EasyTicket.csproj", "{16218B22-E2FF-494E-B15B-187E3B1BB001}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "by Nick Chapsas", "by Nick Chapsas", "{62D08F3D-63F3-45A9-B270-7185BD932660}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "by Jannick Leismann", "by Jannick Leismann", "{AA22B6D9-2FFA-46BF-A7EF-A82E8A819AEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniBlog", "UniBlog\UniBlog.csproj", "{5683F29B-D1C7-432D-A3B4-594570A52C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryCachingIssue", "MemoryCachingIssue\MemoryCachingIssue.csproj", "{943A5818-1CF4-479A-85F3-0FE75C0DA013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustChat", "JustChat\JustChat.csproj", "{5261627A-1559-4B01-9104-4DB62514DFF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16218B22-E2FF-494E-B15B-187E3B1BB001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16218B22-E2FF-494E-B15B-187E3B1BB001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16218B22-E2FF-494E-B15B-187E3B1BB001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16218B22-E2FF-494E-B15B-187E3B1BB001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5683F29B-D1C7-432D-A3B4-594570A52C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5683F29B-D1C7-432D-A3B4-594570A52C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5683F29B-D1C7-432D-A3B4-594570A52C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5683F29B-D1C7-432D-A3B4-594570A52C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943A5818-1CF4-479A-85F3-0FE75C0DA013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943A5818-1CF4-479A-85F3-0FE75C0DA013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943A5818-1CF4-479A-85F3-0FE75C0DA013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943A5818-1CF4-479A-85F3-0FE75C0DA013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5261627A-1559-4B01-9104-4DB62514DFF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5261627A-1559-4B01-9104-4DB62514DFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5261627A-1559-4B01-9104-4DB62514DFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5261627A-1559-4B01-9104-4DB62514DFF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16218B22-E2FF-494E-B15B-187E3B1BB001} = {C44EDD5A-2139-47EF-935D-12201084B3D2}
+		{5683F29B-D1C7-432D-A3B4-594570A52C58} = {AA22B6D9-2FFA-46BF-A7EF-A82E8A819AEB}
+		{943A5818-1CF4-479A-85F3-0FE75C0DA013} = {62D08F3D-63F3-45A9-B270-7185BD932660}
+		{5261627A-1559-4B01-9104-4DB62514DFF5} = {62D08F3D-63F3-45A9-B270-7185BD932660}
+	EndGlobalSection
+EndGlobal
