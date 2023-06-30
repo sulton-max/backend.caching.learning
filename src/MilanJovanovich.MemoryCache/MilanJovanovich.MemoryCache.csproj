@@ -4,6 +4,12 @@
         <TargetFramework>net7.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>MemoryCache</RootNamespace>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Scrutor" Version="4.2.2" />
+      <PackageReference Include="Tynamix.ObjectFiller" Version="1.5.8" />
+    </ItemGroup>
 
 </Project>

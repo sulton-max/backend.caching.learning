@@ -1,8 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using PowerFitness.Core.Models.Entities;
-using PowerFitness.DataAccess.Repositories;
+﻿using MemoryCache.Repositories;
+using Microsoft.AspNetCore.Mvc;
 
-namespace PowerFitness.Controllers;
+namespace MemoryCache.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -16,9 +15,9 @@ public class UsersController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<User>>> GetUsers(int pageSize, int pageToken)
+    public async Task<IActionResult> GetUsers(int pageSize, int pageToken)
     {
-        var users = await _dataRepository.GetAllUsers(pageSize, pageToken);
+        var users = await _dataRepository.GetAllUsersAsync(pageSize, pageToken);
         return users.Any() ? Ok(users) : NotFound();
     }
 }

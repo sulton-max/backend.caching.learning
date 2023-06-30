@@ -9,16 +9,12 @@ M
 PowerFitness/Data/SeedData.cs,f\7\f7610b0d8990b8f20a4d8085daefcc96dfca278f
 Y
 )PowerFitness/Core/Models/Entities/User.cs,c\8\c835effe4bb66e87ae5ba2650a1362bcec5bf89b
-g
-7PowerFitness/DataAccess/Repositories/IDataRepository.cs,9\d\9d6a07d95d2fbbed1b24cbcb3f307fddc0d0c754
 c
 3EasyTicket/DataAccess/DataContext/AppDataContext.cs,a\0\a0595de5a656b00ade28e575e56c4d94faf01bae
 X
 (JustChat/Controllers/GroupsController.cs,4\4\445d7ae095aa2e95eb131dfbcd72e563ca246046
 a
 1JustChat/DataAccess/DataContext/AppDataContext.cs,2\4\249230e158966298dab80beac552eb910c300fcc
-e
-5PowerFitness/DataAccess/DataContext/AppDataContext.cs,d\4\d46cc0e8055d41ced2c0704e7cd3584dd9ca200d
 U
 %JustChat/appsettings.Development.json,1\6\1666b2f552bbd33e9d361fff1549576a5297b3a4
 ^
@@ -73,10 +69,6 @@ c
 3PowerFitness/Core/Models/Query/DataQueryCacheKey.cs,6\f\6f1eb6e5842cbd1ce624f5687fa910295d33d26c
 [
 +PowerFitness/Controllers/UsersController.cs,5\b\5b6592ce378444cd507921c5324aa39a68403be7
-f
-6PowerFitness/DataAccess/Repositories/DataRepository.cs,5\3\53c62f3958bdd339553ff37cab37d16e37f87097
-l
-<PowerFitness/DataAccess/Repositories/CachedDataRepository.cs,c\6\c6389b47748094ee41812e7cf0defc7b66aee04f
 D
 FastCloud/Program.cs,f\5\f5f825d46109dff0ffd432d7f31e14cc0e7ed388
 R
@@ -101,7 +93,5 @@ j
 :JannickLeismann.MemoryCache/Properties/launchSettings.json,7\0\7082fe9c6f9433bbac16afdeee0de0c612788bd3
 ^
 .JannickLeismann.MemoryCache/Data/DataSource.cs,8\0\80e8310d6b8870f2b29aa3cb4a708eed8d37e7ad
-G
-PowerFitness/Program.cs,2\7\273e4c4e221d482db18adfb31d55dddb3c942627
 \
 ,JannickLeismann.MemoryCache/appsettings.json,9\e\9e97c678590211484b763383698483fc42e396ad

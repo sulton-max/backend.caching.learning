@@ -1,9 +1,9 @@
 ﻿using System.Text.Json;
+using MemoryCache.Models;
+using MemoryCache.Query;
 using Microsoft.Extensions.Caching.Memory;
-using PowerFitness.Core.Models.Entities;
-using PowerFitness.Core.Models.Query;
 
-namespace PowerFitness.DataAccess.Repositories;
+namespace MemoryCache.Repositories;
 
 public class CachedDataRepository : IDataRepository
 {
@@ -16,11 +16,11 @@ public class CachedDataRepository : IDataRepository
         _memoryCache = memoryCache;
     }
 
-    public async ValueTask<IEnumerable<User>> GetAllUsers(int pageSize, int pageToken)
+    public async ValueTask<IEnumerable<User>> GetAllUsersAsync(int pageSize, int pageToken)
     {
-        var key = new DataQueryCacheKey(nameof(User), pageSize, pageToken);
+        var key = new CacheKey(nameof(User), pageSize, pageToken);
         var keyString = JsonSerializer.Serialize(key);
-        var users = await _memoryCache.GetOrCreateAsync(keyString, async entry => await _dataRepository.GetAllUsers(pageSize, pageToken));
+        var users = await _memoryCache.GetOrCreateAsync(keyString, async entry => await _dataRepository.GetAllUsersAsync(pageSize, pageToken));
         return users ?? new List<User>();
     }
 }
