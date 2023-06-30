@@ -3,6 +3,7 @@
   <component name="EfCoreDialogsState">
     <option name="keyValueStorage">
       <map>
+        <entry key="Common:61ca96dd-4e68-41b9-8653-4d45969d1885:dbContext" value="FastCloud.DataAccess.DataContexts.AppDataContext" />
         <entry key="Common:92fff5ff-6188-4971-999b-e9f1d3f9f1d6:dbContext" value="LinkForwarding.Core.DataAccess.DataContexts.AppDataContext" />
         <entry key="Common:buildConfiguration" value="Debug" />
         <entry key="Common:e6a89eb5-b116-4264-90e8-a0802c006f36:dbContext" value="PowerFitness.Data.DataContext.AppDataContext" />
