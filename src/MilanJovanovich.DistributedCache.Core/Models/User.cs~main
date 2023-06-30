@@ -1,4 +1,4 @@
-namespace DistributedCache.Core.Models;
+﻿namespace DistributedCache.Core.Models;
 
 public class User
 {

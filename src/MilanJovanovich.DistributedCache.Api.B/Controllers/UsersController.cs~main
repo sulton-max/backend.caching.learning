@@ -1,8 +1,7 @@
-using DistributedCache.Core.Models;
-using DistributedCache.Core.Repositories;
+﻿using DistributedCache.Core.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DistributedCache.Api.A.Controllers;
+namespace DistributedCache.Api.B.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

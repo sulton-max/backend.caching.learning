@@ -1,4 +1,4 @@
-﻿using DistributedCache.Core.Repositories;
+using DistributedCache.Core.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DistributedCache.Api.B.Controllers;

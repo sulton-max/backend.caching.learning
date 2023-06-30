@@ -11,9 +11,16 @@
 
 ## by Milan Jovanovich
 
+<<<<<<< HEAD
 ### **MemoryCache** - demo of **Memory Cache**
 
 > [Video Link](https://www.youtube.com/watch?v=i_3I6XLAOt0)
+=======
+### **DistributedCache.Api.A** and **DistributedCache.Api.B** - demo of **Distributed Caching** with **Redis**
+> [Video Link](https://www.youtube.com/watch?v=i_3I6XLAOt0)
+>
+> **DistributedCache.Core** - Core project shared between 2 API projects
+>>>>>>> main
 >
 > Techniques used : 
 > * **CachedDataRepository** - cached repository with **Decorator** pattern
