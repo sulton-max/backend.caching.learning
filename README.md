@@ -2,7 +2,7 @@
 
 ## by Jannick Leismann
 
-#### **MemoryCache** - demo of **Memory Cache** 
+### **MemoryCache** - demo of **Memory Cache** 
 
 > [Video Link](https://www.youtube.com/watch?v=MSUTojuUEX4&)
 >
@@ -20,7 +20,7 @@
 > * **Decorate** method of scrutor to decorate registered services
 > * **GetOrCreateAsync** method of **IMemoryCache** to get or create cache
 
-### **DistributedCache.Api.A** and **DistributedCache.Api.B** - demo of **Distributed Caching** with **Redis**
+### **DistributedCache.Api.A** and **DistributedCache.Api.B** - demo of **Distributed Cache** with **Redis**
 
 > [Video Link](https://www.youtube.com/watch?v=Tt5zIKVMMbs&t=987s)
 >
@@ -45,7 +45,7 @@
 
 
 
-### **DevBlogs** - Demo of **Distributed Caching** with **Redis** 
+### **DevBlogs** - Demo of **Distributed Cache** with **Redis** 
 > Techniques used :
 > 
 > **RedisCachingService** - caching abstraction service
@@ -59,3 +59,11 @@
 ### by Remigiusz Zalewski
 
 ### by Tim Corey
+
+### **DistributedCache** - Demo of **Distributed Cache** with **Redis** 
+> [Video Link](https://www.youtube.com/watch?v=UrQWii_kfIE)
+> 
+> Techniques used :
+> 
+> * **GetStringAsync** and **SetStringAsync** methods of **IDistributedCache** to get or set cache
+> * **DistributedCacheExtensions** - extension for easy caching single object and collection of objects

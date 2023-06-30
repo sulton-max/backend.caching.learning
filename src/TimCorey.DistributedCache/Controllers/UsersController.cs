@@ -1,22 +1,21 @@
-﻿using FastCloud.Core.Models.Entities;
-using FastCloud.DataAccess.DataContexts;
-using FastCloud.Extensions;
+﻿using DistributedCache.Data;
+using DistributedCache.Extensions;
+using DistributedCache.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Distributed;
 
-namespace FastCloud.Controllers;
+namespace DistributedCache.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
 public class UsersController : ControllerBase
 {
-    private readonly AppDataContext _appDataContext;
+    private readonly DataSource _dataSource;
     private readonly IDistributedCache _distributedCache;
 
-    public UsersController(AppDataContext appDataContext, IDistributedCache distributedCache)
+    public UsersController(DataSource dataSource, IDistributedCache distributedCache)
     {
-        _appDataContext = appDataContext;
+        _dataSource = dataSource;
         _distributedCache = distributedCache;
     }
 
@@ -26,11 +25,10 @@ public class UsersController : ControllerBase
         var users = await _distributedCache.GetEntryAsync<User>(pageSize, pageToken);
         if (!users?.Any() ?? true)
         {
-            users = await _appDataContext.Users.Include(x => x.Servers)
-                .ThenInclude(x => x.Services)
+            users = _dataSource.Users
                 .Skip((pageToken - 1) * pageSize)
                 .Take(pageSize)
-                .ToListAsync();
+                .ToList();
             await _distributedCache.SetEntryAsync(users, pageSize, pageToken);
         }
 
