@@ -4,16 +4,17 @@
 
 ### **MemoryCache** - Demo of **Memory Caching** 
 
-> [Video Link](https://www.youtube.com/watch?v=MSUTojuUEX4&t=14s)
+> [Video Link](https://www.youtube.com/watch?v=MSUTojuUEX4&)
 >
 > Techniques used :
 > * **Get** and **Set** methods of **Memorching** to get or set cache
 
 ## by Milan Jovanovich
 
-### **BlinkLink** and **LinkBlink** - demo of **Distributed Caching** with **Redis**
+### **DistributedCache.Api.A** and **DistributedCache.Api.B** - demo of **Distributed Caching** with **Redis**
+> [Video Link](https://www.youtube.com/watch?v=i_3I6XLAOt0)
 >
-> **LinkForwarding.Core** - Core project shared between 2 API projects
+> **DistributedCache.Core** - Core project shared between 2 API projects
 >
 > Techniques used : 
 > * **DataQueryCacheKey** model - for easily creating cache key

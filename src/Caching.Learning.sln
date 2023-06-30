@@ -18,11 +18,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "by Milan Jovanovich", "by M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerFitness", "PowerFitness\PowerFitness.csproj", "{E6A89EB5-B116-4264-90E8-A0802C006F36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkBlink", "LinkBlink\LinkBlink.csproj", "{1D368907-C961-475A-96A6-8D58E3B45C07}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilanJovanovich.DistributedCache.Api.A", "MilanJovanovich.DistributedCache.Api.A\MilanJovanovich.DistributedCache.Api.A.csproj", "{1D368907-C961-475A-96A6-8D58E3B45C07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlinkLink", "BlinkLink\BlinkLink.csproj", "{8D14C255-335F-4C22-ACBC-A4BF4E9FAD79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilanJovanovich.DistributedCache.Api.B", "MilanJovanovich.DistributedCache.Api.B\MilanJovanovich.DistributedCache.Api.B.csproj", "{8D14C255-335F-4C22-ACBC-A4BF4E9FAD79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkForwarding.Core", "LinkForwarding.Core\LinkForwarding.Core.csproj", "{92FFF5FF-6188-4971-999B-E9F1D3F9F1D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilanJovanovich.DistributedCache.Core", "MilanJovanovich.DistributedCache.Core\MilanJovanovich.DistributedCache.Core.csproj", "{92FFF5FF-6188-4971-999B-E9F1D3F9F1D6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "by Tim Corey", "by Tim Corey", "{862178A0-0681-45C7-ADF9-905660FF2059}"
 EndProject
