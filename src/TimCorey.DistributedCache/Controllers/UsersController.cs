@@ -25,10 +25,7 @@ public class UsersController : ControllerBase
         var users = await _distributedCache.GetEntryAsync<User>(pageSize, pageToken);
         if (!users?.Any() ?? true)
         {
-            users = _dataSource.Users
-                .Skip((pageToken - 1) * pageSize)
-                .Take(pageSize)
-                .ToList();
+            users = _dataSource.Users.Skip((pageToken - 1) * pageSize).Take(pageSize).ToList();
             await _distributedCache.SetEntryAsync(users, pageSize, pageToken);
         }
 

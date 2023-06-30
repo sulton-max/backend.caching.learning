@@ -34,7 +34,7 @@
 
 ## by Nick Chapsas
 
-### Lazy Cache - demo of correct implementation of **Memory Cache**
+### **LazyCache** and **MemoryCache.Issue** - demo of concurrency issue with **IMeoryCache** and solution with **LazyCache**
 
 > [Video Link](https://www.youtube.com/watch?v=Q3KzZeUudsg)
 >
@@ -44,23 +44,30 @@
 > * **GetOrAddAsync** method of **IAppCache** to get or add cache
 
 
+### **DistributedCache.Advanced** - Demo of **Distributed Cache and Pub/Sub** with **Redis** 
 
-### **DevBlogs** - Demo of **Distributed Cache** with **Redis** 
+> [Video Link](https://www.youtube.com/watch?v=jwek4w6als4)
+>
 > Techniques used :
 > 
-> **RedisCachingService** - caching abstraction service
-> 
-> **ConnectionMultiplexer** - connection manager for Redis
->
-> **RedisSubscriber** - background service used for pub/sub functionality of Redis
-
-
+> * **RedisCachingService** - caching abstraction service
+> * **ConnectionMultiplexer** - connection manager for Redis
+> * **RedisSubscriber** - background service used for pub/sub functionality of Redis
 
 ### by Remigiusz Zalewski
 
+### **MemoryCache** - demo of **Memory Cache**
+
+> [Video Link](https://www.youtube.com/watch?v=iGti9y8KjGc&)
+>
+> Techniques used :
+>
+> * **IMemoryCache** - interface for memory cache
+> * **GetOrCreateAsync** method of **IMemoryCache** to get or create cache
+
 ### by Tim Corey
 
-### **DistributedCache** - Demo of **Distributed Cache** with **Redis** 
+### **DistributedCache** - demo of **Distributed Cache** with **Redis** 
 > [Video Link](https://www.youtube.com/watch?v=UrQWii_kfIE)
 > 
 > Techniques used :

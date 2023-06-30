@@ -1,7 +1,6 @@
 using DistributedCache.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-
 builder.Services.AddStackExchangeRedisCache(options =>
 {
     options.Configuration = builder.Configuration.GetConnectionString("RedisConnection");
