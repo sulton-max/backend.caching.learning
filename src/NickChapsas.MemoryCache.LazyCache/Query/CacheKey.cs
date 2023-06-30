@@ -1,12 +1,12 @@
-﻿namespace JustChat.Core.Models.Query;
+﻿namespace MemoryCache.LazyCache.Query;
 
-public class DataQueryCacheKey
+public class CacheKey
 {
     public string TypeName { get; }
     public int PageSize { get; }
     public int PageToken { get; }
 
-    public DataQueryCacheKey(string typeName, int pageSize, int pageToken)
+    public CacheKey(string typeName, int pageSize, int pageToken)
     {
         TypeName = typeName;
         PageSize = pageSize;

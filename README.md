@@ -2,7 +2,7 @@
 
 ## by Jannick Leismann
 
-### **MemoryCache** - Demo of **Memory Cache** 
+#### **MemoryCache** - demo of **Memory Cache** 
 
 > [Video Link](https://www.youtube.com/watch?v=MSUTojuUEX4&)
 >
@@ -11,16 +11,9 @@
 
 ## by Milan Jovanovich
 
-<<<<<<< HEAD
 ### **MemoryCache** - demo of **Memory Cache**
 
 > [Video Link](https://www.youtube.com/watch?v=i_3I6XLAOt0)
-=======
-### **DistributedCache.Api.A** and **DistributedCache.Api.B** - demo of **Distributed Caching** with **Redis**
-> [Video Link](https://www.youtube.com/watch?v=i_3I6XLAOt0)
->
-> **DistributedCache.Core** - Core project shared between 2 API projects
->>>>>>> main
 >
 > Techniques used : 
 > * **CachedDataRepository** - cached repository with **Decorator** pattern
@@ -29,7 +22,7 @@
 
 ### **DistributedCache.Api.A** and **DistributedCache.Api.B** - demo of **Distributed Caching** with **Redis**
 
-> [Video Link](https://www.youtube.com/watch?v=i_3I6XLAOt0)
+> [Video Link](https://www.youtube.com/watch?v=Tt5zIKVMMbs&t=987s)
 >
 > **DistributedCache.Core** - Core project shared between 2 API projects
 >
@@ -39,9 +32,16 @@
 > * **GetStringAsync** and **SetStringAsync** methods of **IDistributedCache** to get or set cache
 > * **IDistributedCache** - interface for distributed cache
 
-### by Nick Chapsas
+## by Nick Chapsas
 
+### Lazy Cache - demo of correct implementation of **Memory Cache**
 
+> [Video Link](https://www.youtube.com/watch?v=Q3KzZeUudsg)
+>
+> Techniques used : 
+> 
+> * **IAppCache** - interface for lazy cache
+> * **GetOrAddAsync** method of **IAppCache** to get or add cache
 
 
 

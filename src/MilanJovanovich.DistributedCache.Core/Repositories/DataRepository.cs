@@ -12,6 +12,9 @@ public class DataRepository : IDataRepository
         _dataSource = dataSource;
     }
 
-    public ValueTask<IEnumerable<User>> GetAllUsersAsync(int pageSize, int pageToken) =>
-        new(Task.Run(() => _dataSource.Users.Skip((pageToken - 1) * pageSize).Take(pageSize).ToList().AsEnumerable()));
+    public ValueTask<IEnumerable<User>> GetAllUsersAsync(int pageSize, int pageToken)
+    {
+        return new ValueTask<IEnumerable<User>>(Task.Run(() =>
+            _dataSource.Users.Skip((pageToken - 1) * pageSize).Take(pageSize).ToList().AsEnumerable()));
+    }
 }

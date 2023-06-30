@@ -4,12 +4,12 @@
         <TargetFramework>net7.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <RootNamespace>MemoryCache</RootNamespace>
+        <RootNamespace>MemoryCache.LazyCache</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Scrutor" Version="4.2.2"/>
-        <PackageReference Include="Tynamix.ObjectFiller" Version="1.5.8"/>
+        <PackageReference Include="LazyCache.AspNetCore" Version="2.4.0" />
+        <PackageReference Include="Tynamix.ObjectFiller" Version="1.5.8" />
     </ItemGroup>
 
 </Project>

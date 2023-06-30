@@ -20,7 +20,8 @@ public class CachedDataRepository : IDataRepository
     {
         var key = new CacheKey(nameof(User), pageSize, pageToken);
         var keyString = JsonSerializer.Serialize(key);
-        var users = await _memoryCache.GetOrCreateAsync(keyString, async entry => await _dataRepository.GetAllUsersAsync(pageSize, pageToken));
+        var users = await _memoryCache.GetOrCreateAsync(keyString,
+            async entry => await _dataRepository.GetAllUsersAsync(pageSize, pageToken));
         return users ?? new List<User>();
     }
 }

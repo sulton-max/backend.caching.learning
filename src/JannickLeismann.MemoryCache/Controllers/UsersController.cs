@@ -25,7 +25,7 @@ public class UsersController : ControllerBase
     {
         var key = new CacheKey(nameof(User), pageSize, pageToken);
         var serializedKey = JsonSerializer.Serialize(key);
-        
+
         var users = _memoryCache.Get<IEnumerable<User>>(serializedKey)?.ToList();
         if (!users?.Any() ?? true)
         {
@@ -33,7 +33,7 @@ public class UsersController : ControllerBase
             var cacheEntryOptions = new MemoryCacheEntryOptions().SetPriority(CacheItemPriority.Normal)
                 .SetSlidingExpiration(TimeSpan.FromMinutes(1))
                 .SetAbsoluteExpiration(TimeSpan.FromMinutes(10));
-        
+
             _memoryCache.Set(serializedKey, users, cacheEntryOptions);
         }
 

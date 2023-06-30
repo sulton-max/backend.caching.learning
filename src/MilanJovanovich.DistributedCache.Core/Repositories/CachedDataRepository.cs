@@ -30,7 +30,9 @@ public class CachedDataRepository : IDataRepository
                 await _distributedCache.SetStringAsync(keyString, JsonSerializer.Serialize(users));
         }
         else
+        {
             users = JsonSerializer.Deserialize<IEnumerable<User>>(cachedData)?.ToList();
+        }
 
         return users ?? new List<User>();
     }

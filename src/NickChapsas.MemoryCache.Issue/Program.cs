@@ -1,7 +1,6 @@
 ﻿using LazyCache;
 using Microsoft.Extensions.Caching.Memory;
 
-
 // Case A - get or create with delegate
 var memoryCache = new MemoryCache(new MemoryCacheOptions());
 var counter = 0;

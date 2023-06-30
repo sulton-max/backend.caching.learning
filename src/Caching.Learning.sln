@@ -10,9 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "by Jannick Leismann", "by J
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JannickLeismann.MemoryCache", "JannickLeismann.MemoryCache\JannickLeismann.MemoryCache.csproj", "{5683F29B-D1C7-432D-A3B4-594570A52C58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryCachingIssue", "MemoryCachingIssue\MemoryCachingIssue.csproj", "{943A5818-1CF4-479A-85F3-0FE75C0DA013}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NickChapsas.MemoryCache.Issue", "NickChapsas.MemoryCache.Issue\NickChapsas.MemoryCache.Issue.csproj", "{943A5818-1CF4-479A-85F3-0FE75C0DA013}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustChat", "JustChat\JustChat.csproj", "{5261627A-1559-4B01-9104-4DB62514DFF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NickChapsas.MemoryCache.LazyCache", "NickChapsas.MemoryCache.LazyCache\NickChapsas.MemoryCache.LazyCache.csproj", "{5261627A-1559-4B01-9104-4DB62514DFF5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "by Milan Jovanovich", "by Milan Jovanovich", "{6FB02AA2-CE84-4419-B9E2-ED1507E943C3}"
 EndProject
