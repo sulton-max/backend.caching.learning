@@ -1,12 +1,12 @@
-﻿namespace UniBlog.Core.Models.Query;
+﻿namespace MemoryCache.Query;
 
-public class CachedDataQueryKey
+public class CacheKey
 {
     public string TypeName { get; }
     public int PageSize { get; }
     public int PageToken { get; }
 
-    public CachedDataQueryKey(string typeName, int pageSize, int pageToken)
+    public CacheKey(string typeName, int pageSize, int pageToken)
     {
         TypeName = typeName;
         PageSize = pageSize;

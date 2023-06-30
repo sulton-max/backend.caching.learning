@@ -2,7 +2,9 @@
 
 ## by Jannick Leismann
 
-### **UniBlog** - Demo of **Memory Caching** 
+### **MemoryCache** - Demo of **Memory Caching** 
+
+> [Video Link](https://www.youtube.com/watch?v=MSUTojuUEX4&t=14s)
 >
 > Techniques used :
 > * **Get** and **Set** methods of **Memorching** to get or set cache
@@ -23,10 +25,6 @@
 
 ### by Nick Chapsas
 
-> 
-> 
-> sdf
-
 ### **DevBlogs** - Demo of **Distributed Caching** with **Redis** 
 > Techniques used :
 > 
@@ -35,6 +33,8 @@
 > **ConnectionMultiplexer** - connection manager for Redis
 >
 > **RedisSubscriber** - background service used for pub/sub functionality of Redis
+
+
 
 ### by Remigiusz Zalewski
 
