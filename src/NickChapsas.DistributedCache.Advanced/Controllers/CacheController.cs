@@ -1,8 +1,8 @@
 ﻿using System.Text.Json;
-using DevBlogs.Services;
 using Microsoft.AspNetCore.Mvc;
+using NickChapsas.DistributedCache.Advanced.Services;
 
-namespace DevBlogs.Controllers;
+namespace NickChapsas.DistributedCache.Advanced.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

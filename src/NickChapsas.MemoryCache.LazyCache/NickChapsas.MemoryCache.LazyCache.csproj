@@ -8,8 +8,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="LazyCache.AspNetCore" Version="2.4.0" />
-        <PackageReference Include="Tynamix.ObjectFiller" Version="1.5.8" />
+        <PackageReference Include="LazyCache.AspNetCore" Version="2.4.0"/>
+        <PackageReference Include="Tynamix.ObjectFiller" Version="1.5.8"/>
     </ItemGroup>
 
 </Project>

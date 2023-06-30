@@ -1,6 +1,6 @@
 ﻿using StackExchange.Redis;
 
-namespace DevBlogs.BackgroundServices;
+namespace NickChapsas.DistributedCache.Advanced.BackgroundServices;
 
 public class RedisSubscriber : BackgroundService
 {
@@ -11,14 +11,11 @@ public class RedisSubscriber : BackgroundService
         _connectionMultiplexer = connectionMultiplexer;
         Console.WriteLine("test");
     }
-    
+
     protected override Task ExecuteAsync(CancellationToken stoppingToken)
     {
         var subscriber = _connectionMultiplexer.GetSubscriber();
         return subscriber.SubscribeAsync("messages",
-            (channel, value) =>
-            {
-                Console.WriteLine($"The message content was : {value}");
-            });
+            (channel, value) => { Console.WriteLine($"The message content was : {value}"); });
     }
 }

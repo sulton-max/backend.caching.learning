@@ -34,14 +34,16 @@ Parallel.ForEach(Enumerable.Range(1, 50),
             Console.WriteLine($"Item just set : {counter}");
         }
         else
+        {
             Console.WriteLine($"Cached item : {cachedItem}");
+        }
     });
 
 // Case C - using lazy caching
 await Task.Delay(4000);
 counter = 0;
 Console.WriteLine("\nCase C : using lazy cache");
-var lazyCache = new CachingService(); 
+var lazyCache = new CachingService();
 Parallel.ForEach(Enumerable.Range(1, 50),
     _ =>
     {

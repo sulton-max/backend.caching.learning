@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "by Remigiusz Zalewski", "by Remigiusz Zalewski", "{C44EDD5A-2139-47EF-935D-12201084B3D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyTicket", "EasyTicket\EasyTicket.csproj", "{16218B22-E2FF-494E-B15B-187E3B1BB001}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemigiuszZalewski.MemoryCache", "RemigiuszZalewski.MemoryCache\RemigiuszZalewski.MemoryCache.csproj", "{16218B22-E2FF-494E-B15B-187E3B1BB001}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "by Nick Chapsas", "by Nick Chapsas", "{62D08F3D-63F3-45A9-B270-7185BD932660}"
 EndProject
@@ -28,7 +28,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "by Tim Corey", "by Tim Core
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimCorey.DistributedCache", "TimCorey.DistributedCache\TimCorey.DistributedCache.csproj", "{61CA96DD-4E68-41B9-8653-4D45969D1885}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevBlogs", "DevBlogs\DevBlogs.csproj", "{3808E97D-D4F1-4DE6-9518-2D43641C836F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NickChapsas.DistributedCache.Advanced", "NickChapsas.DistributedCache.Advanced\NickChapsas.DistributedCache.Advanced.csproj", "{3808E97D-D4F1-4DE6-9518-2D43641C836F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlugAndPlay", "PlugAndPlay\PlugAndPlay.csproj", "{BF348176-BE2E-470A-8AAC-69DF9C21EFC0}"
 EndProject

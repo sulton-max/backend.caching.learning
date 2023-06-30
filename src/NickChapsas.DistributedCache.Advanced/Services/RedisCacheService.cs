@@ -1,6 +1,6 @@
 ﻿using StackExchange.Redis;
 
-namespace DevBlogs.Services;
+namespace NickChapsas.DistributedCache.Advanced.Services;
 
 public class RedisCacheService : ICacheService
 {
@@ -10,7 +10,7 @@ public class RedisCacheService : ICacheService
     {
         _connectionMultiplexer = connectionMultiplexer;
     }
-    
+
     public async Task<string?> GetCacheValueAsync(string key)
     {
         var db = _connectionMultiplexer.GetDatabase();
