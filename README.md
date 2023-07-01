@@ -64,7 +64,19 @@
 > * **Policy** property of **OutputCache** attribute to set cache policy
 > * **AddPolicy** method of **OotputCacheOptions** when adding output cache
 > * **CacheTag** - tag for cache invalidation
-> * **Cache Lock** - lock for request endpoint 
+> * **Cache Lock** - lock for request endpoint
+
+### **AppLevelCache.OutputCache.Redis** - demo of **Output Cache** with **Redis**
+
+> [Video Link](https://www.youtube.com/watch?v=WeHZ_NMC-Jo)
+>
+> Techniques used :
+>
+> * **IConnectionMultiplexer** - interface for connection manager for Redis 
+> * **IOutputCacheStore** - interface for output cache store
+> * **RedisOutputCacheStore** - implementation of **IOutputCacheStore** for Redis
+> * **OutputCacheOptions** - options for output cache
+> * **AddRedisOutputCache** - extension method for adding output cache with Redis
 
 ## by Remigiusz Zalewski
 

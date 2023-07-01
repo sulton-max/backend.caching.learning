@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NickChapsas.DistributedCach
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NickChapsas.AppLevelCache.OutputCache", "NickChapsas.AppLevelCache.OutputCache\NickChapsas.AppLevelCache.OutputCache.csproj", "{BF348176-BE2E-470A-8AAC-69DF9C21EFC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NickChapsas.AppLevelCache.OutputCache.Redis", "NickChapsas.AppLevelCache.OutputCache.Redis\NickChapsas.AppLevelCache.OutputCache.Redis.csproj", "{00EFEF7B-ABBF-475E-AC93-75A149905F6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,6 +84,10 @@ Global
 		{BF348176-BE2E-470A-8AAC-69DF9C21EFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF348176-BE2E-470A-8AAC-69DF9C21EFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF348176-BE2E-470A-8AAC-69DF9C21EFC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00EFEF7B-ABBF-475E-AC93-75A149905F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00EFEF7B-ABBF-475E-AC93-75A149905F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00EFEF7B-ABBF-475E-AC93-75A149905F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00EFEF7B-ABBF-475E-AC93-75A149905F6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{16218B22-E2FF-494E-B15B-187E3B1BB001} = {C44EDD5A-2139-47EF-935D-12201084B3D2}
@@ -95,5 +101,6 @@ Global
 		{61CA96DD-4E68-41B9-8653-4D45969D1885} = {862178A0-0681-45C7-ADF9-905660FF2059}
 		{3808E97D-D4F1-4DE6-9518-2D43641C836F} = {62D08F3D-63F3-45A9-B270-7185BD932660}
 		{BF348176-BE2E-470A-8AAC-69DF9C21EFC0} = {62D08F3D-63F3-45A9-B270-7185BD932660}
+		{00EFEF7B-ABBF-475E-AC93-75A149905F6C} = {62D08F3D-63F3-45A9-B270-7185BD932660}
 	EndGlobalSection
 EndGlobal
