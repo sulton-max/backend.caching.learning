@@ -44,7 +44,7 @@
 > * **GetOrAddAsync** method of **IAppCache** to get or add cache
 
 
-### **DistributedCache.Advanced** - Demo of **Distributed Cache and Pub/Sub** with **Redis** 
+### **DistributedCache.Advanced** - demo of **Distributed Cache and Pub/Sub** with **Redis** 
 
 > [Video Link](https://www.youtube.com/watch?v=jwek4w6als4)
 >
@@ -54,7 +54,19 @@
 > * **ConnectionMultiplexer** - connection manager for Redis
 > * **RedisSubscriber** - background service used for pub/sub functionality of Redis
 
-### by Remigiusz Zalewski
+### **AppLevel.OutputCache** - demo of **Output Cache** 
+
+> [Video Link](https://www.youtube.com/watch?v=0WvGwOoK-CI)
+>
+> Techniques used :
+>
+> * **OutputCache** attribute to cache action result
+> * **Policy** property of **OutputCache** attribute to set cache policy
+> * **AddPolicy** method of **OotputCacheOptions** when adding output cache
+> * **CacheTag** - tag for cache invalidation
+> * **Cache Lock** - lock for request endpoint 
+
+## by Remigiusz Zalewski
 
 ### **MemoryCache** - demo of **Memory Cache**
 
@@ -65,7 +77,7 @@
 > * **IMemoryCache** - interface for memory cache
 > * **GetOrCreateAsync** method of **IMemoryCache** to get or create cache
 
-### by Tim Corey
+## by Tim Corey
 
 ### **DistributedCache** - demo of **Distributed Cache** with **Redis** 
 > [Video Link](https://www.youtube.com/watch?v=UrQWii_kfIE)

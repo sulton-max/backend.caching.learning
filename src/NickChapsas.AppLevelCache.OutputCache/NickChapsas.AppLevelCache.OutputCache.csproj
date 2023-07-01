@@ -4,6 +4,11 @@
         <TargetFramework>net7.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>AppLevelCache.OutputCache</RootNamespace>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Tynamix.ObjectFiller" Version="1.5.8" />
+    </ItemGroup>
 
 </Project>

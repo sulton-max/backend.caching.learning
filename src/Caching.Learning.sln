@@ -30,7 +30,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimCorey.DistributedCache",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NickChapsas.DistributedCache.Advanced", "NickChapsas.DistributedCache.Advanced\NickChapsas.DistributedCache.Advanced.csproj", "{3808E97D-D4F1-4DE6-9518-2D43641C836F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlugAndPlay", "PlugAndPlay\PlugAndPlay.csproj", "{BF348176-BE2E-470A-8AAC-69DF9C21EFC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NickChapsas.AppLevelCache.OutputCache", "NickChapsas.AppLevelCache.OutputCache\NickChapsas.AppLevelCache.OutputCache.csproj", "{BF348176-BE2E-470A-8AAC-69DF9C21EFC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
