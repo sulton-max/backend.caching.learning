@@ -111,3 +111,10 @@
 > * **FallbackCache** - failure tolerant cache
 > * **WriteThroughCache** - coupled data storage with cache
 > * **WriteBackCache** - uses accumulated changes to update distributed cache
+>
+> 
+> [Video Link](https://www.youtube.com/watch?v=rsXvpCHdldg&list=PLOeFnOV9YBa77eJeW39a5Q2lsyfdxpE_d&index=3)
+>
+> Techniques used :
+> * **AddStackExchangeRedisCache** - extension method for adding Redis cache
+> 
