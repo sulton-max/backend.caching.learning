@@ -98,3 +98,16 @@
 > 
 > * **GetStringAsync** and **SetStringAsync** methods of **IDistributedCache** to get or set cache
 > * **DistributedCacheExtensions** - extension for easy caching single object and collection of objects
+
+## by Anton Wieslander
+
+### **CachingStrategies** - demo of caching types and strategies
+
+> [Video Link](https://www.youtube.com/watch?v=fb0XZTAURCo&list=PLOeFnOV9YBa77eJeW39a5Q2lsyfdxpE_d&index=1)
+> [Video Link](https://www.youtube.com/watch?v=EJ73Bl3AtFY&list=PLOeFnOV9YBa77eJeW39a5Q2lsyfdxpE_d&index=2)
+>
+> Techniques used :
+> * **NamespacedCache** - name scoped cache
+> * **FallbackCache** - failure tolerant cache
+> * **WriteThroughCache** - coupled data storage with cache
+> * **WriteBackCache** - uses accumulated changes to update distributed cache
